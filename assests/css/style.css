@@ -1,0 +1,87 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;700;800&display=swap');
+/*variable css*/
+:root {
+    --header-height: 6.25rem;
+
+    /*collors*/
+    --main-color:   #f7e6df;
+    --first-color:  #75492b;
+    --second-color: #dfd6a7;
+    --white-color:  #ffffff;
+    --black-color:  #000000;
+
+    /*font and typography*/
+    --font-cursive:     'Great Vibes', cursive;
+    --body-font:        'Montserrat', sans-serif;
+    --big-font-size:    3rem;
+    --h1-font-size:     2.25rem;
+    --h2-font-size:     1.5rem;
+    --h3-font-size:     1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size:  0.813rem;
+
+    /*font weight*/
+    --font-light:     300;
+    --font-medium:    400;
+    --font-semi-bold: 700;
+    --font-bold:      800;
+
+    /*margins*/
+    --mb-05:  0.5rem;
+    --mb-1:     1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2:     2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3:     3rem;
+
+    /*z indexs*/
+    --Z-fixed:   100;
+    --z-tooltip:  10;
+    --z_negative: -1;
+}
+
+/*base*/
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: var(--black-color);
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+    overflow-x: hidden;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    padding: calc(var(--header-height) +20px) 0;
+}
+.grid {
+    display: grid;
+    gap: 20px;    
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*nav 12:40*/
