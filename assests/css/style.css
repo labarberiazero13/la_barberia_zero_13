@@ -83,6 +83,22 @@ a{
     align-items: center;
     justify-content: center;
 }
+.section_title {
+    margin: 0 auto;
+    text-align: center;
+}
+.section_title h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: var(--big-font-size);
+    font-weight: var(--font-medium);
+    line-height: var(--big-font-size);
+}
+.section_title span {
+    font-weight: var(--font-light);
+    font-size: var(--h2-font-size);
+    line-height: var(--h2-font-size);
+    color: var(--first-color);
+}
 /*button*/
 .btn {
     width: 240px;
@@ -212,4 +228,18 @@ a{
     padding: 0 3rem;
     letter-spacing: 0.2em;
     margin-bottom: var(--mb-1-5);
+}
+.about_detail {
+    width: 100%;
+    padding: 2rem;
+}
+.about_detail_content {
+    border: 2px solid var(--first-color);
+    border-radius: 30px;
+    padding: 1rem;
+}
+.about_img img {
+    width: 100%;
+    border-radius: 30px;
+    filter: drop-shadow(16px 16px 16px rgba(0,0,0,0.25));
 }
