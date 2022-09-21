@@ -363,3 +363,20 @@ a{
     color: var(--first-color);
     margin-left: var(--mb-05);
 }
+.item p span {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-light);
+}
+.item .x_icon, .item .check_icon {
+    font-size: var(--h3-font-size);
+}
+.item .x_icon {
+    color: var(--second-color);
+}
+.item .check_icon {
+    color: var(--first-color);
+}
+.card_itens button {
+    margin: 0 auto;
+    margin-top: var(--mb-1);
+}
