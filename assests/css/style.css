@@ -315,6 +315,9 @@ a{
 /*package*/
 #assinar {
     background-color: var(--black-color);
+    color: var(--white-color);   
+}
+.btn a {
     color: var(--white-color);
 }
 .section_title h1{
