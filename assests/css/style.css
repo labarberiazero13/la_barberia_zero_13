@@ -313,6 +313,10 @@ a{
     height: 100%;
 }
 /*package*/
+#assinar {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
 .section_title h1{
     color: #ffffff;
 }
