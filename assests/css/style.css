@@ -346,3 +346,16 @@ a{
     line-height: var(--h3-font-size);
     color: var(--black-color);
 }
+.card_itens {
+    margin-bottom: var(--mb-1);
+}
+.item {
+    display: flex;
+    align-items: center;
+}
+.item p {
+    font-weight: var(--font-bold);
+    line-height: calc(var(--normal-font-size) + 10px);
+    color: var(--first-color);
+    margin-left: var(--mb-05);
+}
