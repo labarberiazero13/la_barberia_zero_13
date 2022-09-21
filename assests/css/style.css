@@ -370,7 +370,7 @@ a{
 .item .x_icon, .item .check_icon {
     font-size: var(--h3-font-size);
 }
-.item .x_icon {
+.item .x_icon, .item .not {
     color: var(--second-color);
 }
 .item .check_icon {
